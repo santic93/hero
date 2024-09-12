@@ -14,11 +14,12 @@ export const Hero = () => {
       replace: true,
     });
   };
+  const heroImg = `dist/heroes/${id}.jpg`;
   return (
     <div className='row mt-5 '>
       <div className='col-4 animate__animated animate__lightSpeedInRight'>
         <img
-          src={`/assets/heroes/${id}.jpg`}
+          src={heroImg}
           alt={hero.superhero}
           className='img-thumbnail '
         />

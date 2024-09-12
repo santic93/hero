@@ -13,8 +13,8 @@ export const HeroCard = ({
   first_appearance,
   characters,
 }) => {
-  const heroImg = `/assets/heroes/${id}.jpg`;
-
+  const heroImg = `dist/heroes/${id}.jpg`;
+ 
   return (
     <div className="row row-cols-1 row-cols-md-1 g-4 ">
       <div className="col">

@@ -9,7 +9,7 @@ const AppRouter = () => {
     <>
       <Routes>
         <Route
-          path='/'
+          path='/login'
           element={
             <PublicRoute>
               <LoginPage />
